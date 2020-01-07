@@ -9,3 +9,5 @@ https://www.w3schools.com/html/html_tables.asp
 
 Validador de Codigos HTML:
 https://validator.w3.org/
+
+Detener. Rewind, Play, Forward, Rec
