@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+    	<title>Algoritmos</title>
+    </head>
+    <body>
+    	<h1>Ejercicios de Algoritmos</h1>
+    	<p>Ejecucion completa de algoritmos según actividad determinada</p>	
+    	<!-- Comentario Primario-->
+		<script>
+	    	for(var i=0; i<5;i++){   
+	 		console.log(i);
+			}
+		</script>
+
+		<script>
+			for(var i=0; i<5; i++)
+			{
+			   i = i + 1;  
+			   console.log(i);
+			}
+		</script>
+
+		<script>
+			for(var i=0; i<5; i++)
+			{
+			   i = i + 3; 
+			   console.log(i);
+			}
+		</script>
+
+		<script>
+			function y(num1, num2){   
+			   return num1+num2;
+			}
+			console.log(y(2,3))
+			console.log(y(3,5))
+		</script>
+
+		<script> 
+			a = 15;
+			console.log(a);
+			function y(a){
+			   console.log(a);   
+			   return a;
+			}
+			b = y(10);
+			console.log(b);
+		</script>
+
+		<script>
+			function potencia(base, exp)
+			{
+				var temp = base;
+				for (var i=0; i<exp-1; i++)
+				{
+					temp = temp*base;
+				}
+				return temp;
+			}
+			console.log(potencia(2,2));
+		</script>
+
+		<script>
+			function potencia2(base, exponente)
+			{
+				return base**exponente;
+			}
+			console.log(potencia2(2,2));
+		</script>
+    </body>
+</html>
